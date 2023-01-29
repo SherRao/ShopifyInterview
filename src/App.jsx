@@ -14,9 +14,9 @@ const initalData = [
 ];
 
 let searchQuery = "";
-var formatter = new Intl.NumberFormat("en-US", {
+const formatter = new Intl.NumberFormat("en-US", {
     style: "currency",
-    currency: "USD",
+    currency: "CAD",
 });
 
 export default function App() {
